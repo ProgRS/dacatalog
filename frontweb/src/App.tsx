@@ -1,13 +1,14 @@
 import './assets/styles/custom.scss';
-import Navbar from 'components/Navbar';
+
 
 import './App.css';
-import Home from 'pages/Home';
+
+import Routes from 'Routes';
 
 const App = ()  => {
   return( 
   
-    <Home/>
+    <Routes/>
   
   );
 }
